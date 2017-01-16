@@ -9,14 +9,14 @@ Default output: `vec4 gl_FragColor`
 
 **`smoothStep()`** - Given a range of two numbers and a value, this function will interpolate the value between the defined range. The two first parameters are for the beginning and end of the transition, while the third is for the value to interpolate.
 
-**`fract()`** - Extracts the decimal part, f.ex: `fract(1.5) = 0.5;`
-**`ceil(x)`** - nearest integer that is greater than or equal to x
-**`floor(x)`** - nearest integer less than or equal to x
-**`sign(x)`** - extract the sign of x
-**`abs(x)`** - return the absolute value of x
-**`clamp(x,0.0,1.0)`** - constrain x to lie between 0.0 and 1.0
-**`min(0.0,x)`** - return the lesser of x and 0.0
-**`max(0.0,x)`** - return the greater of x and 0.0
+**`fract()`** - Extracts the decimal part, f.ex: `fract(1.5) = 0.5;`  
+**`ceil(x)`** - nearest integer that is greater than or equal to x  
+**`floor(x)`** - nearest integer less than or equal to x  
+**`sign(x)`** - extract the sign of x  
+**`abs(x)`** - return the absolute value of x  
+**`clamp(x,0.0,1.0)`** - constrain x to lie between 0.0 and 1.0  
+**`min(0.0,x)`** - return the lesser of x and 0.0  
+**`max(0.0,x)`** - return the greater of x and 0.0  
 
 A great feature of vector types in GLSL is that the properties can be combined in any order you want, which makes it easy to cast and mix values. This ability is called **swizzle**.
 
